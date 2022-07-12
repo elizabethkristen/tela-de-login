@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'noto sans', 'sans-serif';
+    background-color: rgb(10, 72, 72);
+}
+
+#form{
+    background-color: #fff;
+    padding: 50px;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: rgb(24, 78, 69);
+}
+
+button{
+    width: 150px;
+    padding: 8px;
+    margin: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(2, 94, 88);
+}
+
+.login{
+    margin: 10px;
+    padding: 5px;
+}
+
+.login > input{
+    background-color: rgb(175, 197, 190);
+    border-radius: 4px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    outline: none;
+}
+
+button:hover{
+    background-color: rgb(24, 78, 69);
+}
